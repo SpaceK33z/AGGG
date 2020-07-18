@@ -1,6 +1,18 @@
+@font-face {
+  font-family: "Merriweather";
+  src: url("/font/Merriweather-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/font/Merriweather-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
 html, body {
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Merriweather", sans-serif;
   background: #000;
   color: #fff;
   text-align: center;
@@ -53,6 +65,7 @@ h1 {
 
   a {
     font-size: 20px;
+    font-weight: bold;
     margin-right: 50px;
 
     &:last-child {
